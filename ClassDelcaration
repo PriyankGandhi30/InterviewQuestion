@@ -1,0 +1,12 @@
+class Car {
+    var carType: String?
+    var carColor: UIColor?
+    
+    func setCarColor(_ color: UIColor) {
+        self.carColor = color
+    }
+    
+    func setCarType(_ type: String?) {
+        self.carType = type
+    }
+}
